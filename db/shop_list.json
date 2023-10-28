@@ -1,0 +1,20 @@
+[
+	{
+        "name": "Café",
+        "quantity": 10,
+        "isMarked": true,
+        "priority": 8
+    },
+    {
+        "name": "Miojo de picanha",
+        "quantity": 1,
+        "isMarked": false,
+        "priority": 2
+    },
+    {
+        "name": "NVidia 4090 ti importada pq quero pagar muito imposto",
+        "quantity": 582,
+        "isMarked": true,
+        "priority": 10
+    }
+]
