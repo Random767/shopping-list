@@ -1,13 +1,25 @@
-## Gerenciador de compras em golang
-Um gerenciador de compras simples criado em go, útil e extremamente rápido
+## Sobre
+Gerenciador de compras CLI simples e eficiente, desenvolvido em Golang
+
+## Instalação
+Clone este repositório:
+``` sh
+git clone https://github.com/Random767/shopping-list
+```
+
+Entre no diretório do projeto:
+``` sh
+cd shopping-list
+```
+
+Compile o projeto:
+``` sh
+go build
+```
+
+Execute o programa:
+``` sh
+./shopping-list
+```
 
 
-### Executar e compilar
-go build main.go && ./main
-ou apenas
-go run main.go
-
-
-
-### Notas sobre o desenvolvimento
-Está incompleto, ainda falta criar uma forma de salvar o estado do usuário atual num arquivo local
