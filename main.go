@@ -28,7 +28,10 @@ func drawn() {
 	scanner := bufio.NewScanner(os.Stdin)
 	for {
 		fmt.Print(">> ")
-		scanner.Scan()
+		if !scanner.Scan() {
+			fmt.Println("\nSaindo...");
+			break;
+		}
 		var input []string = getArgs(scanner.Text())
 		var command string = input[0]
 		var args string
