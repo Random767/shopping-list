@@ -44,7 +44,7 @@ func drawn() {
 		}
 
 		if command == "help" {
-			var help string = `Bem vindo ao menu de ajuda, abaixo está todos meus comandos:
+			var help string = `Bem vindo ao menu de ajuda, abaixo estão todos os comandos disponíveis:
  help: Veja esse menu de ajuda
  list: Retorna uma lista com todos os produtos
  add: Adicione um produto
